@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container { /*Contains the whole website side to side*/
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1e6e9c;
+    border: 2px solid #195383;
+    block-size: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: flex-end; /*left and right*/
+    align-items: center; /*up and down*/
+    gap: 20px;
+}
+
+.navbar a {
+    color: #cfe2ec;
+    font-size: 18px;
+    font-weight: bold;
+}
